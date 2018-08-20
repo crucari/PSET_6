@@ -1,3 +1,7 @@
+#implements a web application that runs any of the 3 algorithms on any two text files
+#highlight: given a string, s, and a listof other strings, strings, it highlights(by wrapping them in HTML span tags) all instances.
+#errorHandler: makes sure any HTTP errors are displayed on a page of their own
+
 import cs50
 import re
 from flask import Flask, abort, redirect, render_template, request

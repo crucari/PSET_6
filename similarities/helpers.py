@@ -1,3 +1,5 @@
+#3 functions in this file: algorithms for lines, sentences, and substrings
+
 def lines(a, b):
     """Return lines in both a and b"""
 
