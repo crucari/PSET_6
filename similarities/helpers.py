@@ -8,9 +8,12 @@
 def lines(a, b):
     """Return lines in both a and b"""
 
+    def __str__(self):
+        return str(self.name.lower())
 
     # TODO
     return []
+
 
 
 def sentences(a, b):
