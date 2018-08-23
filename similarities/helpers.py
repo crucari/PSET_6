@@ -20,5 +20,8 @@ def sentences(a, b):
 def substrings(a, b, n):
     """Return substrings of length n in both a and b"""
 
-    # TODO
-    return []
+    return set(list_sub(a, n)).intersection(list_sub(n, n))
+
+def list_sub(a,n):
+
+    return [a[i: i + n] for i in range(len(a) - (n - 1))]
