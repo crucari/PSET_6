@@ -5,14 +5,15 @@
 # but the strings in the returned list should not end in \n. If both a and b contain
 # one or more blank lines (i.e., a \n immediately preceded by no other characters), the returned list should include an empty string (i.e., "").
 
+from nltk.tokenize import sent_tokenize
+
 def lines(a, b):
     """Return lines in both a and b"""
 
-    def __str__(self):
-        return str(self.name.lower())
+    return list(set(a.split('\n')).intersection(b.split('\n')))
 
-    # TODO
-    return []
+    # # TODO
+    # return []
 
 
 
